@@ -194,6 +194,10 @@ body {
     background-color: rgba(5, 151, 160, 0.15);
 }
 
+.bg-green {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
 .featured-flowers-images img {
     width: 310px;
     height: 428px;
