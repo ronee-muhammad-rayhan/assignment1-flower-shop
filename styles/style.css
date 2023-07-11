@@ -12,6 +12,28 @@ body {
     border: 3px solid red;
 }
 
+.text-primary {
+    color: rgba(229, 84, 115);
+}
+
+.btn-primary {}
+
+.section-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    /* text-align: center; */
+    /* font-family: Lato; */
+    font-size: 18px;
+    /* font-style: normal; */
+    font-weight: 400;
+    line-height: 30px;
+}
+
 /* header related styles */
 .header {
     width: 100%;
@@ -142,4 +164,52 @@ body {
 
 .hot-deal-image img {
     height: 420px;
+}
+
+/* social instagram related styles */
+.social-insta-container {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+    border: 1px solid crimson;
+    margin: 0;
+}
+
+.social-insta-texts {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* text-align: center; */
+    align-items: center;
+    /* align-content: center; */
+    padding-top: 128px;
+}
+
+.social-insta-title {
+    padding-bottom: 24px;
+}
+
+.social-insta-description {
+    display: flex;
+    width: 594px;
+    flex-direction: column;
+    /* justify-content: center;
+    text-align: center;
+    align-items: center; */
+    flex-shrink: 0;
+    padding-bottom: 48px;
+}
+
+.social-insta-description p {}
+
+#social-insta-images {}
+
+#social-insta-images ul {
+    display: flex;
+    gap: 24px;
+    list-style-type: none;
+    /* align-items: center; */
+    justify-content: center;
 }
