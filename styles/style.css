@@ -43,15 +43,55 @@ body {
     line-height: 30px;
 }
 
+/* nav related styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.nav-item {
+    font-weight: bold;
+}
+
+.item:hover {
+    cursor: pointer;
+    color: #E55473;
+    transition: 0.3s;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
+
 /* header related styles */
 .header {
     width: 100%;
-    background-color: rgba(229, 84, 115, 0.10);
+    /* background-color: rgba(229, 84, 115, 0.10);
 
-    border: 3px solid red;
+    border: 3px solid red; */
 }
 
 .banner-container {
+    background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     justify-content: space-around;
     /* align-items: center; */
