@@ -142,13 +142,13 @@ nav a {
 .featured-flowers {
     display: flex;
     flex-direction: column;
+    width: 1920px;
 }
 
 .featured-flowers-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     gap: 48px;
     background-color: (229, 84, 115, 0.05);
     margin-top: 178px;
