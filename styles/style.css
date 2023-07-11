@@ -198,6 +198,29 @@ body {
     /* align-content: flex-end; */
 }
 
+#multi-colour-flowers {
+    background-color: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+    /* flex-shrink: 0; */
+    border-radius: 300px 300px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    /* horizontally center */
+    align-items: center;
+    /* vertically end*/
+    justify-content: center;
+    /* align-content: flex-end; */
+}
+
+#multi-colour-flowers img {
+    width: 370px;
+    height: 370px;
+    /* flex-shrink: 0; */
+    /* position: sticky; */
+    /* align-items: end; */
+}
+
 .bg-blue {
     background-color: rgba(5, 151, 160, 0.15);
 }
