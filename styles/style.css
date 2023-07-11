@@ -76,7 +76,7 @@ nav a {
 
 /* header related styles */
 .header {
-    width: 100%;
+    width: 1922px;
 }
 
 .banner-container {
@@ -264,6 +264,7 @@ nav a {
 .hot-deal {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
+    width: 1920px;
 }
 
 .hot-deal-container {
