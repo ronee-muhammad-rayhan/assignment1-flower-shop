@@ -314,7 +314,11 @@ nav a {
 }
 
 /* social instagram related styles */
-.social-insta-container {
+.social-info {
+    width: 1920px;
+}
+
+.social-instagram-container {
     background-color: #FFF;
     display: flex;
     flex-direction: column;
@@ -357,6 +361,7 @@ nav a {
     display: flex;
     justify-content: center;
     margin: 128px 0px;
+    width: 1920px;
 
 }
 
