@@ -251,7 +251,46 @@ body {
 
 .subscription input {
     padding: 22px;
+    margin-right: 16px;
     width: 700px;
     border-radius: 8px;
     border-style: none;
+}
+
+/* footer related styles */
+.footer-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: rgba(17, 16, 16, 1);
+}
+
+.footer-texts {
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+}
+
+.footer-heading {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.disclaimer {
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 625px;
+    /* flex-shrink: 0; */
+    padding-top: 24px;
+    padding-bottom: 32px;
+    color: rgba(255, 255, 255, 0.90);
+}
+
+.copyright-texts {
+    color: rgba(255, 255, 255, 0.40);
 }
